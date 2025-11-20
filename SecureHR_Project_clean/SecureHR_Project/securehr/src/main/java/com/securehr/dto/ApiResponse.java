@@ -8,7 +8,6 @@ public class ApiResponse {
         this.success = success;
         this.message = message;
     }
-
     public boolean isSuccess() { return success; }
     public String getMessage() { return message; }
 }
